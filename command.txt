@@ -3,7 +3,6 @@ user (-D) for (--save-dev)
 # create the project
 next new nest.js-articles-system
 
-
 # generate module
 nest g mo moduleName
 
@@ -15,7 +14,6 @@ nest g s serviceName
 
 # or u can use this command to generate all
 nest g resource user 
-
 
 # install bcryptjs
 npm i bcryptjs --save
@@ -31,3 +29,6 @@ npm i -D @types/jsonwebtoken
 npm i nodemailer
 npm i -D  @types/nodemailer
 
+
+# install casl
+npm i @casl/ability
